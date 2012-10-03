@@ -1,0 +1,5 @@
+dir /lvm 755 0 0
+dir /lvm/etc 755 0 0
+dir /lvm/sbin 755 0 0
+file /lvm/etc/lvm.conf source/usr/stingray_initramfs_files/lvm.conf 755 0 0
+file /lvm/sbin/lvm source/usr/stingray_initramfs_files/lvm 755 0 0
